@@ -15,9 +15,7 @@ if(isset($_SESSION['user_data'])){
 	<title></title>
 	<!-- Including Bootstrap Css -->
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<?php include 'css.php'; ?>
 	<!-- Adding Custom Css -->
 	<style type="text/css">
 		.container{

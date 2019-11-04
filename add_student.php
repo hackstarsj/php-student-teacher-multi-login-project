@@ -10,9 +10,7 @@ if(isset($_SESSION['user_data'])){
 <html>
 <head>
 	<title>Add Student</title>
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<?php include 'css.php'; ?>
 </head>
 <body>
 	<form action="add_student_post.php" method="post">
